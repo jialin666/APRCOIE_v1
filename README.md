@@ -4,6 +4,8 @@
 APRCOIE achieved the best performance on the latest Open Information Extraction benchmark BenchIE [1]. \
 This is the code and data of APRCOIE.
 ## Usage
+### Training
+### Predicting
 > [1] K. Gashteovski, M. Yu, B. Kotnis, C. Lawrence, M. Niepert, G. Glavas, BenchIE: A framework for multi-faceted fact-based open information extraction evaluation, Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, ACL 2022, pp. 4472-4490.
 
 
