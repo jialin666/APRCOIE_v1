@@ -4,13 +4,14 @@
 
 APRCOIE achieved the best performance on the latest Open Information Extraction benchmark BenchIE [1].  
 
-This is the code and data of APRCOIE.
+This is the code and data of APRCOIE. <br>
 ## Usage
-### Training
-The train.py file in the usage folder demonstrates how to conduct training. If you do not have additional annotated data, simply run train.py to complete the training process.\
-You will get two model files in the data folder: model.obj, model_att.obj. \
-If you have your own annotated data, you need to ensure that the data follows the format as shown below: words, dependency, POS, triples which represent annotation result in number. \ 
-An example is provided below: sentence: 美国有50个州。\
+### Training  
+
+The train.py file in the usage folder demonstrates how to conduct training. If you do not have additional annotated data, simply run train.py to complete the training process.<br>
+You will get two model files in the data folder: model.obj, model_att.obj. <br>
+If you have your own annotated data, you need to ensure that the data follows the format as shown below: words, dependency, POS, triples which represent annotation result in number. <br>
+An example is provided below: <br> sentence: 美国有50个州。\
 words = ["美国", "有", "50", "个", "州", "。"] \
 dependency = [(1, 2, 'SBV'), (2, 0, 'HED'), (3, 4, 'ATT'), (4, 5, 'ATT'), (5, 2, 'VOB'), (6, 2, 'WP')] \
 POS = ['ns', 'v', 'm', 'q', 'n', 'wp'], \
