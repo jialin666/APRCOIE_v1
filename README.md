@@ -27,7 +27,7 @@ The file predict.py in usage folder show how to extract triples. For a target se
 ## Contact
 Jialin Hua, nhma0004@gmail.com
 ## References
-> [1] K. Gashteovski, M. Yu, B. Kotnis, C. Lawrence, M. Niepert, G. Glavas, BenchIE: A framework for multi-faceted fact-based open information extraction evaluation, Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, ACL 2022, pp. 4472-4490.
+> [1] K. Gashteovski, M. Yu, B. Kotnis, C. Lawrence, M. Niepert, G. Glavas, BenchIE: A framework for multi-faceted fact-based open information extraction evaluation, Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, ACL 2022, pp. 4472-4490. <br>
 > [2] W. Che, Y. Feng, L. Qin, T. Liu, N-LTP: An Open-source Neural Language Technology Platform for Chinese, Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, EMNLP 2021, pp. 42-49.
 
 
