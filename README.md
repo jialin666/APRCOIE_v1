@@ -14,9 +14,9 @@ If you have your own annotated data, you need to ensure that the data follows th
 An example is provided below: <br>
 sentence: 美国有50个州。<br>
 &emsp; words = ["美国", "有", "50", "个", "州", "。"] <br>
-\t dependency = [(1, 2, 'SBV'), (2, 0, 'HED'), (3, 4, 'ATT'), (4, 5, 'ATT'), (5, 2, 'VOB'), (6, 2, 'WP')] <br>
-\t POS = ['ns', 'v', 'm', 'q', 'n', 'wp'], \
-\t triples_in_number = [[[0], [1], [2, 3, 4]]] (represents the only triple: [[['美国'], ['有'], ['50', '个', '州']]]) <br>
+&emsp; dependency = [(1, 2, 'SBV'), (2, 0, 'HED'), (3, 4, 'ATT'), (4, 5, 'ATT'), (5, 2, 'VOB'), (6, 2, 'WP')] <br>
+&emsp; POS = ['ns', 'v', 'm', 'q', 'n', 'wp'], \
+&emsp; triples_in_number = [[[0], [1], [2, 3, 4]]] (represents the only triple: [[['美国'], ['有'], ['50', '个', '州']]]) <br>
 Then these data organized as a dictionary as shown in the lien 20 in train.py.
 ### Predicting
 The file predict.py in usage folder show how to extract triples. For a target sentence, it firstly conduct word segmentation, POS tagging, dependency parsing. We adopt LTP 4 [2] as the natural language processing tool here. Then it construct the tree (class Tree) of the target sentence, read the model, and pass all of these to extraction_regular and extraction_att functions of MATRIX module. 
