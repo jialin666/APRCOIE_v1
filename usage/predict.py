@@ -35,7 +35,7 @@ if _check_ltpResult(dep_list):  # check dependency
 
 
     # just extract att
-    result = MATRIX.extraction_regular(test_tree, [], [], vt_of_att_list)
+    result = MATRIX.extraction_att(test_tree, [], [], vt_of_att_list)
     for triple in result:
         print(triple)
 
