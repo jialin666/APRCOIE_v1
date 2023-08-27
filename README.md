@@ -23,7 +23,7 @@ An example is provided below: <br>
 Then these data organized as a dictionary as shown in the line 20 in train.py.  
 
 ### Predicting
-The file predict.py in usage folder show how to extract triples. For a target sentence, it firstly conduct word segmentation, POS tagging, dependency parsing. We adopt LTP 4 [2] as the natural language processing tool here. Then it constructs an instance of class Tree, named test_tree, of the target sentence, loads the model, and passes all of these to extraction_regular and extraction_att functions of MATRIX module. 
+The file predict.py in usage folder shows how to extract triples. For a target sentence, it firstly conducts word segmentation, POS tagging, dependency parsing. We adopt LTP 4 [2] as the natural language processing tool here. Then it constructs an instance of class Tree, named test_tree, of the target sentence, loads the model, and passes all of these to extraction_regular and extraction_att functions of MATRIX module. 
 ## Contact
 Jialin Hua, nhma0004@gmail.com
 ## References
