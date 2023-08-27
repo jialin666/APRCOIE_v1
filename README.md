@@ -2,9 +2,9 @@
 ## Introduction
 **APRCOIE** means Auto Patterns Recognition for Chinese Open Information Extraction, which is a open information extraction model for Chinese text.  
 
-APRCOIE achieved the best performance on the latest Open Information Extraction benchmark BenchIE [1].  
+APRCOIE achieves the best performance on the latest Open Information Extraction benchmark BenchIE [1].  
 
-This is the code and data of APRCOIE. <br>
+This repository contains the code and annatated dataset of APRCOIE model. <br>
 ## Usage
 ### Training  
 
