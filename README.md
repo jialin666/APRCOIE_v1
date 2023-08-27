@@ -12,7 +12,7 @@ The train.py file in the usage folder demonstrates how to conduct training. If y
 
 You will get two model files in the data folder: model.obj, model_att.obj. <br>
 
-If you have your own annotated data, you need to ensure that the data follows the format as shown below: words, dependency, POS, triples which represent annotation result in number. <br>
+If you have your own annotated data, it's important to ensure that the data adheres to the following format: : words, dependency, POS, triples which represent annotation result in number. <br>
 
 An example is provided below: <br>
 &emsp; sentence: 美国有50个州。<br>
