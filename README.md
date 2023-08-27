@@ -25,7 +25,7 @@ Then these data organized as a dictionary as shown in the line 20 in train.py.
 ### Predicting
 The file predict.py in usage folder shows how to extract triples. For a target sentence, it firstly conducts word segmentation, POS tagging, dependency parsing. We adopt LTP 4 [2] as the natural language processing tool here. Then it constructs an instance of class Tree, named test_tree, of the target sentence, loads the model, and passes all of these to extraction_regular and extraction_att functions of MATRIX module. 
 ## Contact
-Jialin Hua(华佳林), nhma0004@gmail.com
+Jialin Hua (华佳林), nhma0004@gmail.com
 ## References
 > [1] K. Gashteovski, M. Yu, B. Kotnis, C. Lawrence, M. Niepert, G. Glavas, BenchIE: A framework for multi-faceted fact-based open information extraction evaluation, Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics, ACL 2022, pp. 4472-4490. <br>
 > [2] W. Che, Y. Feng, L. Qin, T. Liu, N-LTP: An Open-source Neural Language Technology Platform for Chinese, Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing: System Demonstrations, EMNLP 2021, pp. 42-49.
